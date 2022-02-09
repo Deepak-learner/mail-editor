@@ -1,0 +1,47 @@
+
+    .layout{
+        border: 5px solid brown;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .inputTextBox{
+        border: none;
+        width: 100%;
+        background: transparent;
+        border-bottom: 1px solid black;
+        outline: none;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .inputHeading{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .mailMessage{
+        width: 100%;
+        height: 300px;
+        border-color: var(--border-color);
+    }
+
+    .sendMailBtn {
+        width: 60px;
+        border-radius: 10px;
+        color: white;
+        background-color: blue;
+    }
+
+    #ccbcc {
+        border: none;
+        width: 10%;
+        height: 10%;
+        background-color: var(--submitTxt-color);
+    }
+
+    #deleteBtn{
+        float: right;
+    }
+
